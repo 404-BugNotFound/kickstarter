@@ -1,0 +1,54 @@
+### my template
+# Python related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Editor temporary files
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Dependency management
+/venv/
+/env/
+/dist/
+/build/
+/lib/
+/site-packages/
+*.egg-info/
+
+# Local configuration files
+*.local
+*.db
+
+# IDE settings
+.pycharm/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Pytest and Coverage
+.pytest_cache/
+.coverage
+"deduplicator.db"
+第一批数据
+第二批数据(前2000)
