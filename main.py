@@ -380,7 +380,7 @@ def main():
     records.reverse()  # 倒序，从后往前抓，先抓评论多的
 
     # for data in tqdm(records, desc="kickstarter评论抓取"):
-    for data in tqdm(records[4000:6000], desc="kickstarter评论抓取"):  # 第一批先抓4000
+    for data in tqdm(records[8000:9000], desc="kickstarter评论抓取"):  # 第一批先抓4000
         url = data['Project link']
         if not all([url.strip() not in _ for _ in already_success_tasks]):
             print('当前链接已去重：', url)

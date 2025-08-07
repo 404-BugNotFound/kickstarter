@@ -11,7 +11,7 @@ if not Path(SUCCESS_FLAG).exists():
     Path(SUCCESS_FLAG).touch()
 
 SOURCE_EXCEL = './网址链接.xlsx'
-FOLDER_NAME = './第二批数据(前2000)'
+FOLDER_NAME = './第三批数据(前1000)'
 Path(FOLDER_NAME).mkdir(parents=True, exist_ok=True)
 FAILED_TASK_FILE = f'failed_task_{datetime.now().strftime("%Y-%m-%d-%H-%M-%S")}.txt'
 
